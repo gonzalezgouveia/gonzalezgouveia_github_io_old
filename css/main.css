@@ -43,6 +43,7 @@ ul.posts li {
 }
 
 img{
-  width: 50px;
+  float:left;
+  width: 60px;
   border-radius: 100%;
 }
