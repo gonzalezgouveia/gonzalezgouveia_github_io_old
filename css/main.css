@@ -21,6 +21,15 @@ a {
 a:hover {
     text-decoration: underline;
 }
+a.link_proyecto{
+  text-decoration: none;
+  font-size: 1em;
+  line-height: 1em;
+  color: #999;
+}
+a.link_proyecto:hover {
+    text-decoration: underline;
+}
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -42,10 +51,4 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
-}
-
-img{
-  float:left;
-  width: 60px;
-  border-radius: 100%;
 }
