@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
 	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-133421941-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-133421941-1');
+		</script>
+
+		<!-- FONT AWESOME -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<title>Rafael Gonzalez, Data Scientist</title>
 		<!-- Bootstrap -->
@@ -10,13 +24,13 @@
 		<nav>
     		<ul>
         		<li><a href="./index.html">Home</a></li>
-						<li><a href="./about.html">Sobre mí</a></li>
+						<!-- <li><a href="./about.html">Sobre mí</a></li> -->
 						<li><a href="./cv.html">CV</a></li>
 						<!-- <li><a href="./datascience.html">DataScience</a></li> -->
 	        	<li><a href="./projects.html">Proyectos</a></li>
         		<!-- <li><a target="_blank" href="./documents/CV-ES-RafaelGonzalezGouveia.pdf">CV</a></li> -->
         		<!-- <li><a href="./blog.html">Blog</a></li> -->
-						<li><a href="./notebooks.html">Notebooks</a></li>
+						<!-- <li><a href="./notebooks.html">Notebooks</a></li> -->
 						<li><a href="./eng_index.html">English</a></li>
     		</ul>
 		</nav>
@@ -45,17 +59,22 @@
 					</a>
 				</div>
 			</div>
+			<div >
+				<hr>
+			</div>
 			<p> Estudio de procesos puntuales con ATD  </p>
+
 			<div class="row">
 				<div class="col-sm-4">
 					<ul>
 							<li>Objetivo: Estudiar la aleatoriedad espacial completa
-								<a class="link_proyecto" href="https://en.wikipedia.org/wiki/Complete_spatial_randomness"> (CSR) </a>
 								a través de herramientas topológicas. </li>
 							<li>Alcance: Proyecto de tesis de maestría.</li>
 							<li>Lenguaje: R</li>
 							<li>Librerias: ggplot2, TDA.</li>
-							<li>Link: <a class="link_proyecto" href="./documents/TesisMaestriaRafael.pdf"> Tesis de maestría.</a> </li>
+							<li>Link: <a class="link_proyecto"
+								href="./documents/TesisMaestriaRafael.pdf" target="_blank">
+								 Tesis de maestría.</a> </li>
 					</ul>
 				</div>
 				<div class="col-sm-4">
@@ -66,20 +85,23 @@
 				</div>
 			</div>
 		</div>
+		<div >
+			<hr>
+		</div>
 	<br>
-		
+
 		<div id="disqus_thread"></div>
 		<script>
 
 		/**
 		*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
 		*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-		
+
 		var disqus_config = function () {
 		this.page.url = 'https://gonzalezgouveia.github.io/projects.html';  // Replace PAGE_URL with your page's canonical URL variable
 		this.page.identifier = 'github-projects'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 		};
-		
+
 		(function() { // DON'T EDIT BELOW THIS LINE
 		var d = document, s = d.createElement('script');
 		s.src = 'https://gonzalezgouvieagithub.disqus.com/embed.js';
@@ -88,14 +110,15 @@
 		})();
 		</script>
 		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-		
-		
+
+
 	</body>
 	<footer>
 			<ul>
-					<li><a href="mailto:gonzalez.gouveia@gmail.com">Email</a></li>
-					<li><a href="https://www.linkedin.com/in/gonzalezgouveia/">LinkedIn</a></li>
-					<li><a href="https://github.com/gonzalezgouveia">GitHub</a></li>
+				<li><a href="https://www.linkedin.com/in/gonzalezgouveia/" target="_blank" class="fa fa-linkedin"></a></li>
+				<li><a href="https://medium.com/@gonzalez.gouveia" target="_blank" class="fa fa-medium"></a></li>
+				<li><a href="https://github.com/gonzalezgouveia" target="_blank" class="fa fa-github"></a></li>
+				<li><a href="https://twitter.com/GonzalezGouveia" target="_blank" class="fa fa-twitter"></a></li>
 		</ul>
 	</footer>
 </html>

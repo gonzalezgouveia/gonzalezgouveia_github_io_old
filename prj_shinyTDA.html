@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
 	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-133421941-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-133421941-1');
+		</script>
+
+		<!-- FONT AWESOME -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<title>Rafael Gonzalez, Data Scientist</title>
 		<!-- Bootstrap -->
@@ -10,13 +24,13 @@
 		<nav>
     		<ul>
         		<li><a href="./index.html">Home</a></li>
-						<li><a href="./about.html">Sobre mí</a></li>
+						<!-- <li><a href="./about.html">Sobre mí</a></li> -->
 						<li><a href="./cv.html">CV</a></li>
 						<!-- <li><a href="./datascience.html">DataScience</a></li> -->
 	        	<li><a href="./projects.html">Proyectos</a></li>
         		<!-- <li><a target="_blank" href="./documents/CV-ES-RafaelGonzalezGouveia.pdf">CV</a></li> -->
         		<!-- <li><a href="./blog.html">Blog</a></li> -->
-						<li><a href="./notebooks.html">Notebooks</a></li>
+						<!-- <li><a href="./notebooks.html">Notebooks</a></li> -->
 						<li><a href="./eng_index.html">English</a></li>
     		</ul>
 		</nav>
@@ -25,10 +39,11 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
-					<h2>Projecto de dashboard interactivo para TDA</h2>
+					<h2>Dashboard interactivo sobre análisis topológico de datos</h2>
 				</div>
 			</div>
 			<hr>
+			<iframe src="https://rafaelgonzalez.shinyapps.io/TDA_final/" class="col-sm-12 col-md-12 col-xs-12" allowfullscreen style="border:0px" width="900px;" height="600px;"></iframe>
 			<div class="row">
 				<div class="col-sm-6">
 					<h3> ¿Qué quería hacer? </h3>
@@ -49,15 +64,37 @@
 				</div>
 			</div>
 			<hr>
-			<iframe src="https://rafaelgonzalez.shinyapps.io/TDA_final/" class="col-sm-12 col-md-12 col-xs-12" allowfullscreen style="border:0px" width="900px;" height="600px;"></iframe>
+
 			<br>
+		</div>
+				<div id="disqus_thread"></div>
+		<script>
+
+		/**
+		*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+		*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+
+		var disqus_config = function () {
+		this.page.url = 'https://gonzalezgouveia.github.io/prj_shinyTDA.html';  // Replace PAGE_URL with your page's canonical URL variable
+		this.page.identifier = 'github-prj_shinyTDA'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+		};
+
+		(function() { // DON'T EDIT BELOW THIS LINE
+		var d = document, s = d.createElement('script');
+		s.src = 'https://gonzalezgouvieagithub.disqus.com/embed.js';
+		s.setAttribute('data-timestamp', +new Date());
+		(d.head || d.body).appendChild(s);
+		})();
+		</script>
+
 		</div>
 	</body>
 	<footer>
 			<ul>
-	    		<li><a href="mailto:gonzalez.gouveia@gmail.com">Email</a></li>
-					<li><a href="https://www.linkedin.com/in/gonzalezgouveia/">LinkedIn</a></li>
-	    		<li><a href="https://github.com/gonzalezgouveia">GitHub</a></li>
+				<li><a href="https://www.linkedin.com/in/gonzalezgouveia/" target="_blank" class="fa fa-linkedin"></a></li>
+				<li><a href="https://medium.com/@gonzalez.gouveia" target="_blank" class="fa fa-medium"></a></li>
+				<li><a href="https://github.com/gonzalezgouveia" target="_blank" class="fa fa-github"></a></li>
+				<li><a href="https://twitter.com/GonzalezGouveia" target="_blank" class="fa fa-twitter"></a></li>
 		</ul>
 	</footer>
 </html>

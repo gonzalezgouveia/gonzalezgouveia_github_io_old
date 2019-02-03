@@ -52,3 +52,11 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+.fa {
+  font-size: 50px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
