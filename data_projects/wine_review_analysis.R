@@ -57,6 +57,5 @@ ggplot(clean_data,
   geom_point() + 
   geom_smooth(method=lm, se = FALSE) +
   facet_trelliscope(~ country, nrow = 1, ncol = 3,
-                    as_plotly = TRUE,
                     path = path_trelliscope,
                     self_contained=TRUE)
